@@ -1,0 +1,150 @@
+/* Used a seperate style document because the project for the tournament bracket is large, and therefore, there could be some errors if i used my current document */
+/* Each area has a seperate comment to show difference between each area */
+
+/* Page Styling */
+*{
+    margin: 0px;
+}
+
+body {
+    margin: 5px;
+    background-color: white;
+}
+
+/* Layer 1: 'Stam' */
+.Stam {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+/* Layer 2: 'Aftakking' */
+.Aftakking1 {
+    height: 830px;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 20px;
+}
+
+.Aftakking2 {
+    height: 830px;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.Aftakking3 {
+    height: 830px;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+/* Layer 3: 'Brackets' 1 t/m 7 */
+
+.Bracket1:nth-child(even) , .Bracket2:nth-child(even) , .Bracket3:nth-child(even) {
+    display: grid;
+    grid-template-columns: 230px 100px;
+    grid-template-rows: 50px 50px;
+    background-color: red;
+    width: 300px;
+    padding-top: 4px;
+    padding-left: 4px;   
+
+}
+
+.Bracket1:nth-child(odd) , .Bracket2:nth-child(odd) , .Bracket3:nth-child(odd) {
+    display: grid;
+    grid-template-columns: 230px 100px;
+    grid-template-rows: 50px 50px;
+    background-color: grey;
+    width: 300px;
+    padding-top: 4px;
+    padding-left: 4px;   
+
+}
+
+
+/* Name CSS */
+.naam_Forward {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.select {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+select.naam {
+    width: 210px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+
+/* Competition CSS */
+
+.Wedstrijd {
+    height: 150px;
+}
+
+.Wedstrijd2 {
+    height: 300px;
+}
+
+.Bracket2 {
+    margin-top: 25%;
+}
+
+.Wedstrijd3 {
+    height: 600px;
+}
+
+.Bracket3 {
+    margin-top: 75%;
+}
+
+
+label.number{
+    font-size: 30px;
+}
+
+/* Thats all folks for the Bracket design! */
+/* Here comes extra CSS design like banners */
+
+.topbanner {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    vertical-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: gold;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0%;
+    height: 100%;
+}
+
+a {
+    font-family: Tahoma;
+    font-size: 20px;
+}
